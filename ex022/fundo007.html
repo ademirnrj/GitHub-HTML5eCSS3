@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centralizando caixas</title>
+    <style>
+        body {
+           background-color: brown; 
+           padding: 10px;
+        }
+        #container{
+            position: relative;
+            background-color: aquamarine;
+            background-image: url(Imagens/wallpaper003.jpg);
+            background-size: cover;
+            background-position: center top;
+            height: 50vh;
+            padding: 10px;
+        }
+        #conteudo {
+            position: absolute; 
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: yellow;
+            width: 300px;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.426);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <h1>teste de centralização</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius numquam id a pariatur nesciunt at iste ea. Aperiam, doloremque ad! Commodi omnis rerum sit vero repellat consequuntur, saepe amet. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+        </article>
+    </section>
+    
+</body>
+</html>
